@@ -26,7 +26,7 @@
   width: 100vw;
   justify-content: space-between;
   flex-direction: column;
-  padding: 3.5rem 2.2rem;
+  padding: 4rem 2.7rem;
 }
 .home-title {
   border-left: 3px solid rgb(174, 63, 174);
@@ -44,9 +44,9 @@
 }
 .home-body__header {
   font-size: 3.2rem;
-  line-height: 4.2rem;
+  line-height: 4.1rem;
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 .home-body p {
   opacity: 0.4;
