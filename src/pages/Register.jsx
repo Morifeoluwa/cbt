@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from "../assets/test.png";
 
 const Register = () => {
   const [index, setIndex] = useState(0);
@@ -45,7 +44,6 @@ const Register = () => {
           <div className="register-steps__dots">{dots}</div>
         </div>
         <div className="register-form form">
-          <img src={logo} alt="logo" />
           <h1>Create Account</h1>
           <p>Lorem ipsum dolor sit amet...</p>
           <div className="form-group">
