@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/logo.png";
-import { Link } from "react-router-dom";
+import logo from "../assets/test.png";
 
 const Register = () => {
   const [index, setIndex] = useState(0);
@@ -45,8 +44,8 @@ const Register = () => {
           </div>
           <div className="register-steps__dots">{dots}</div>
         </div>
-        <div className="register-form">
-          {/* <img src={logo} alt="logo" /> */}
+        <div className="register-form form">
+          <img src={logo} alt="logo" />
           <h1>Create Account</h1>
           <p>Lorem ipsum dolor sit amet...</p>
           <div className="form-group">
@@ -61,19 +60,14 @@ const Register = () => {
             </label>
             <input type="password" placeholder="*******" />
           </div>
-          <p className="forgot">
-            <Link className="link" to="/forgot-password">
-              Forgot Password?
-            </Link>
-          </p>
           <div className="form-group">
             <button>Proceed</button>
           </div>
           <p className="no-member">
             Already a member?{" "}
-            <Link className="link" to="/login">
+            <a className="link" href="/login">
               Login
-            </Link>
+            </a>
           </p>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { VscSettings } from "react-icons/vsc";
+
+import logo from "../assets/test-white.png";
 
 const Home = () => {
   return (
@@ -18,15 +18,15 @@ const Home = () => {
               <p>Get to understand it better</p>
               <div className="home-body__bottom">
                 <hr />
-                <Link to="/get-started">
+                <a href="/get-started">
                   <button>Get Started</button>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
           <div className="main-two">
             <div>
-              <VscSettings className="icon" />
+              <img src={logo} alt="logo" />
             </div>
           </div>
         </div>

@@ -4,6 +4,9 @@
   padding: 0;
   font-family: Lato;
 }
+body {
+  background-color: rgb(247, 247, 247);
+}
 .link {
   text-decoration: none;
   color: blue;
@@ -17,7 +20,7 @@
   height: 100%;
   width: 100vw;
   background-color: #000;
-  background-image: url("./assets/bg-6.jpeg");
+  background-image: url("./assets/bg-3.JPG");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -31,6 +34,7 @@
   flex-direction: row;
   padding: 4rem 2.5rem;
   justify-content: center;
+  overflow: auto;
 }
 .main-one {
   display: flex;
@@ -100,6 +104,7 @@
   .main-two {
     width: 40%;
     display: block;
+    padding: 0 2rem;
   }
   .main-two > div {
     width: 100%;
@@ -108,6 +113,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .main-two img {
+    width: 13rem;
+    opacity: 0.9;
   }
   .main-two .icon {
     font-size: 14rem;
@@ -124,60 +133,65 @@
 .register-steps {
   display: none;
 }
-.register-form {
-  padding: 6rem 1.4rem;
+.form {
+  padding: 6rem 1.8rem;
   width: 100%;
   max-width: 30rem;
 }
-.register-form img {
+.form img {
   width: 5rem;
   padding-top: 0rem;
   margin-bottom: 2rem;
 }
-.register-form h1 {
+.form h1 {
   font-family: Kanit;
   margin-bottom: 0.2rem;
 }
-.register-form p {
+.form p {
   opacity: 0.55;
   margin-bottom: 3.5rem;
   line-height: 1.5rem;
 }
-.register-form .form-group {
+.form-group {
   width: 100%;
   margin-bottom: 1rem;
 }
-.register-form .form-group label {
+.form-group label {
   cursor: pointer;
   font-weight: 500;
   font-family: Lato;
 }
-.register-form .form-group label span {
+.form-group label span {
   font-weight: 600;
   color: crimson;
 }
 .form-group input {
   width: 100%;
-  border: 1px solid #aaa;
+  border: 1px solid #ccc;
   background-color: inherit;
   padding: 1.1rem 1.5rem;
-  margin: 0.7rem 0;
+  margin: 0.8rem 0;
   outline: none;
   border-radius: 5px;
   font-size: 0.9rem;
+  color: #000;
+}
+.form-group input::placeholder {
+  color: #666;
 }
 .form-group button {
   width: 100%;
   border: none;
   background-color: rgb(56, 2, 56);
   padding: 0.9rem 1.5rem;
-  font-weight: 600;
+  font-weight: 500;
   font-family: Kanit;
   color: #fff;
   font-size: 1rem;
   border-radius: 5px;
   cursor: pointer;
   font-family: Kanit;
+  text-transform: uppercase;
 }
 .forgot {
   font-weight: 600;
@@ -246,4 +260,7 @@
     line-height: 2rem;
     font-size: 0.95rem;
   }
+}
+.mx-auto {
+  margin: 0% auto;
 }
