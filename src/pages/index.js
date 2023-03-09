@@ -1,0 +1,11 @@
+export { default as Dashboard } from "./Dashboard";
+export { default as Home } from "./Home";
+export { default as Login } from "./Login";
+export { default as Register } from "./Register";
+export { default as NewCBT } from "./NewCBT";
+export { default as EditCBT } from "./EditCBT";
+export { default as WriteCBT } from "./WriteCBT";
+export { default as Scores } from "./Scores";
+export { default as EditProfile } from "./EditProfile";
+export { default as ForgotPassword } from "./ForgotPassword";
+export { default as ResetPassword } from "./ResetPassword";
