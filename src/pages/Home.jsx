@@ -10,7 +10,7 @@ const Home = () => {
           </div>
           <div className="home-body">
             <h2 className="home-body__header">
-              Manage &amp; control everything in one place
+              Manage everything in one place
             </h2>
             <p>Get to understand it better</p>
             <div className="home-body__bottom">

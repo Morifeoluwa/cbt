@@ -26,7 +26,7 @@
   width: 100vw;
   justify-content: space-between;
   flex-direction: column;
-  padding: 3.5rem 3rem;
+  padding: 3.5rem 2.6rem;
 }
 .home-title {
   border-left: 3px solid rgb(174, 63, 174);
@@ -45,7 +45,8 @@
 .home-body__header {
   font-size: 3.2rem;
   line-height: 3.95rem;
-  font-weight: 700;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
 }
 .home-body p {
   opacity: 0.4;
@@ -71,7 +72,14 @@
   border-radius: 0;
   outline: none;
   color: rgb(174, 63, 174);
-  font-weight: 650;
+  font-weight: 600;
   font-size: 1.2rem;
   cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Kanit", sans-serif;
+}
+@media screen and (min-width: 768px) {
+  .home-main {
+    padding: 3.5rem 6rem;
+  }
 }
