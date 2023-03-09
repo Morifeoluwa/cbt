@@ -31,7 +31,7 @@ const App = () => {
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/scores/:hash" element={<Scores />} />
             <Route path="/edit-profile" element={<EditProfile />} />
-            <Route path="/forget-password" element={<ForgotPassword />} />
+            <Route path="/forgot-password" element={<ForgotPassword />} />
             <Route path="/reset-password/:hash" element={<ResetPassword />} />
             <Route path="/new-cbt" element={<NewCBT />} />
             <Route path="/edit-cbt/:hash" element={<EditCBT />} />

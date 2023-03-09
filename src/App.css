@@ -2,7 +2,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Lato;
+}
+.link {
+  text-decoration: none;
+  color: blue;
 }
 /** Home Page **/
 .home-page {
@@ -24,9 +28,17 @@
   display: flex;
   height: 100%;
   width: 100vw;
+  flex-direction: row;
+  padding: 4rem 2.5rem;
+  justify-content: center;
+}
+.main-one {
+  display: flex;
   justify-content: space-between;
   flex-direction: column;
-  padding: 4rem 2.5rem;
+}
+.main-two {
+  display: none;
 }
 .home-title {
   border-left: 3px solid rgb(174, 63, 174);
@@ -81,5 +93,155 @@
 @media screen and (min-width: 768px) {
   .home-main {
     padding: 3.5rem 6rem;
+  }
+  .main-one {
+    width: 60%;
+  }
+  .main-two {
+    width: 40%;
+    display: block;
+  }
+  .main-two > div {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-two .icon {
+    font-size: 14rem;
+    opacity: 0.5;
+  }
+}
+/** Registration page **/
+.register {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register-steps {
+  display: none;
+}
+.register-form {
+  padding: 5rem 2rem;
+  width: 100%;
+  max-width: 30rem;
+}
+.register-form img {
+  width: 5rem;
+  padding-top: 0rem;
+  margin-bottom: 2rem;
+}
+.register-form h1 {
+  font-family: Kanit;
+  margin-bottom: 0.2rem;
+}
+.register-form p {
+  opacity: 0.55;
+  margin-bottom: 3.5rem;
+  line-height: 1.5rem;
+}
+.register-form .form-group {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.register-form .form-group label {
+  cursor: pointer;
+  font-weight: 500;
+  font-family: Lato;
+}
+.register-form .form-group label span {
+  font-weight: 600;
+  color: crimson;
+}
+.form-group input {
+  width: 100%;
+  border: 1px solid #ddd;
+  background-color: inherit;
+  padding: 1rem 1.5rem;
+  margin: 0.7rem 0;
+  outline: none;
+  border-radius: 5px;
+}
+.form-group button {
+  width: 100%;
+  border: none;
+  background-color: rgb(56, 2, 56);
+  padding: 0.9rem 1.5rem;
+  font-weight: 600;
+  font-family: Kanit;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.forgot {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 1.3rem !important;
+  color: blue;
+}
+.no-member {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 1.3rem !important;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .register {
+    display: flex;
+    width: 95%;
+    max-width: 60rem;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem auto;
+    box-shadow: 0px 0px 80px rgba(34, 43, 56, 0.3);
+    background-color: rgb(174, 63, 174);
+  }
+  .register-form {
+    padding: 3rem 2.5rem;
+    width: 55% !important;
+    max-width: 55% !important;
+    background-color: #fff;
+  }
+  .register-steps {
+    width: 45%;
+    padding: 4rem 2.4rem;
+    color: #f1f1f1;
+    display: block;
+    text-align: center;
+  }
+  .register-steps__dots {
+    padding-top: 3.5em;
+  }
+  .register-steps__dots span {
+    width: 30px;
+    height: 4px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #fff;
+    opacity: 0.3;
+    margin-right: 0.6rem;
+    cursor: pointer;
+  }
+  .register-steps__dots span.active {
+    opacity: 1;
+  }
+  .register-steps__dots span:last-child {
+    margin-right: 0;
+  }
+  .register-steps__step img {
+    width: 18rem;
+  }
+  .register-steps__step h2 {
+    font-family: Kanit;
+    margin-bottom: 0.3rem;
+  }
+  .register-steps__step p {
+    opacity: 0.6;
+    line-height: 2rem;
+    font-size: 0.95rem;
   }
 }
