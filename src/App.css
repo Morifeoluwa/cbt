@@ -32,7 +32,7 @@
   border-left: 3px solid rgb(174, 63, 174);
   padding: 0.3rem 0;
   padding-left: 1.4rem;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 .home-title__header {
   font-size: 1.2rem;
@@ -43,15 +43,15 @@
   max-width: 35rem;
 }
 .home-body__header {
-  font-size: 2.8rem;
-  line-height: 3.6rem;
-  font-weight: 600;
+  font-size: 3rem;
+  line-height: 3.8rem;
+  font-weight: 700;
 }
 .home-body p {
   opacity: 0.4;
-  margin-top: 1.4rem;
-  margin-bottom: 3.5rem;
-  font-size: 0.98rem;
+  margin-top: 1.7rem;
+  margin-bottom: 3.8rem;
+  font-size: 1.1rem;
 }
 .home-body__bottom {
   display: flex;
@@ -71,7 +71,7 @@
   border-radius: 0;
   outline: none;
   color: rgb(174, 63, 174);
-  font-weight: 600;
-  font-size: 1rem;
+  font-weight: 650;
+  font-size: 1.1rem;
   cursor: pointer;
 }
