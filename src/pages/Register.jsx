@@ -46,7 +46,7 @@ const Register = () => {
           <div className="register-steps__dots">{dots}</div>
         </div>
         <div className="register-form">
-          <img src={logo} alt="logo" />
+          {/* <img src={logo} alt="logo" /> */}
           <h1>Create Account</h1>
           <p>Lorem ipsum dolor sit amet...</p>
           <div className="form-group">
