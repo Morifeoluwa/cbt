@@ -26,7 +26,7 @@
   width: 100vw;
   justify-content: space-between;
   flex-direction: column;
-  padding: 3rem 2.1rem;
+  padding: 3.5rem 3rem;
 }
 .home-title {
   border-left: 3px solid rgb(174, 63, 174);
@@ -43,15 +43,15 @@
   max-width: 35rem;
 }
 .home-body__header {
-  font-size: 3rem;
-  line-height: 3.8rem;
+  font-size: 3.2rem;
+  line-height: 3.95rem;
   font-weight: 700;
 }
 .home-body p {
   opacity: 0.4;
   margin-top: 1.7rem;
   margin-bottom: 3.8rem;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
 }
 .home-body__bottom {
   display: flex;
@@ -72,6 +72,6 @@
   outline: none;
   color: rgb(174, 63, 174);
   font-weight: 650;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   cursor: pointer;
 }
